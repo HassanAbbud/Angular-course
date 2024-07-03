@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-counter',
+  templateUrl: './app-counter.component.html',
+  styleUrl: './app-counter.component.css'
 })
-export class AppComponent {
-  public title: string = 'Hola mundo, app Angular';
+export class AppCounterComponent {
   public counter: number = 10;
 
   increaseBy(value: number): void {
