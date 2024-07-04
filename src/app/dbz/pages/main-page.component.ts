@@ -18,4 +18,9 @@ export class MainPageComponent {
     power: 50
   }];
 
+  onNewCharacterFunction(character: Character) {
+    console.log("Main")
+    console.log(character);
+  }
+
 }
