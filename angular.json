@@ -41,7 +41,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "https://[path]",
+              "baseHref": "https://hassanabbud.github.io/Angular-course/",
               "budgets": [
                 {
                   "type": "initial",
